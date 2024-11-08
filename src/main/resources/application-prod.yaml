@@ -12,4 +12,4 @@ spring:
       ddl-auto: update
 
 server:
-  host: 43.203.159.228
+  host: 15.165.31.190

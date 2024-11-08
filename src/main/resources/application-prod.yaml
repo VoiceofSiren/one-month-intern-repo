@@ -1,0 +1,15 @@
+spring:
+  config:
+    activate:
+      on-profile: prod
+  datasource:
+    url: jdbc:postgresql://onboarding.cp4cwm684hgx.ap-northeast-2.rds.amazonaws.com:5432/internOnboarding
+    username: postgres
+    password: 12341234
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+
+server:
+  host: 43.203.159.228

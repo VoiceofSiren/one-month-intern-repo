@@ -12,7 +12,7 @@ public class CorsConfigurer implements WebMvcConfigurer {
     private String host;
 
     private final String[] ORIGIN_WHITE_LIST = {
-            "http://"+ host + ":8080"
+            "http://43.203.159.228:8080"
     };
 
     /**

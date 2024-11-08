@@ -21,7 +21,7 @@ import java.util.Arrays;
 @Configuration
 public class SwaggerConfig {
 
-    @Value("${server.host")
+    @Value("${server.host}")
     private String host;
 
     private final Server[] SERVERS = {

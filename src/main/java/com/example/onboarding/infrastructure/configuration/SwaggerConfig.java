@@ -21,11 +21,8 @@ import java.util.Arrays;
 @Configuration
 public class SwaggerConfig {
 
-    @Value("${server.host}")
-    private String host;
-
     private final Server[] SERVERS = {
-            new Server().url("http://" + host + ":8080").description("Onboarding Application")
+            new Server().url("http://localhost:8080").description("Onboarding Application")
     };
 
     @Bean
